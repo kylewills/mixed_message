@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mixed messages...</title>
 </head>
-<body onload="whatShallIDo()">
-    <h1>Mixed messages project</h1>
-    <div  id="messageDisplay">
-        <!--Random messages will show here when program is opened-->
+<body class="pageBackground" onload="whatShallIDo()">
+    <div class="pagePlan">
+        <h1>Mixed messages project</h1>
+        <div class="message"  id="messageDisplay">
+            <!--Random messages will show here when program is opened-->
+        </div>
+        <br>
+       
+        <br>
+        <h1>Thought for the day</h1>
+        <button onclick="message()">click to see</button>
+        <br>
+        <br>
+        <div class="message" id="clickedMessageDisplay"></div>
     </div>
-    <br>
-    <div>-------------------------------------------------------------------------------------------------------------------------------------------------------</div>
-    <br>
-    <button onclick="message()">click for a new message</button>
-    <br>
-    <br>
-    <div id="clickedMessageDisplay"></div>
     <!--<script>
         function newRandomMessage() {
           alert("Mixed Messages Page is loaded");
         }
         </script> -->
         <script  src="practice.js"></script> 
-        <!--<script src ="javascript.js"></script> -->
+        <script src ="javascript.js"></script>
 </body>
 </html>

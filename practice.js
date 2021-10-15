@@ -16,13 +16,13 @@ const generateRandomNumber = num => {
   
   switch(todo) {
     case 'day':
-      activityChoices.push(`Today is "${whatToDo[todo][choice]}".`)
+      activityChoices.push(`If today is "${whatToDo[todo][choice]}".`)
       break
     case 'colourClothes':
-      activityChoices.push(`How about wearing : "${whatToDo[todo][choice]}" clothes.`)
+      activityChoices.push(`you should think about wearing "${whatToDo[todo][choice]}" clothes,`)
       break
     case 'activity':
-      activityChoices.push(`The best activity for you to do today is : "${whatToDo[todo][choice]}".`)
+      activityChoices.push(`and the best activity for you to do today is "${whatToDo[todo][choice]}".`)
       break
     default:
       activityChoices.push('Maybe you should do something else???.')

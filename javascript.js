@@ -16,11 +16,11 @@ const randMess = [
   "In the middle of every difficulty lies opportunity.",
 ];
 
-const newRandomMessage = () =>{
+/*const newRandomMessage = () =>{
   let newMessage = Math.floor(Math.random() * (randMess.length));
   //alert("randMess[newMessage]");
   document.getElementById('messageDisplay').innerHTML = randMess[newMessage];
-};
+};*/
 
 const message = () =>{
   let newMessage = Math.floor(Math.random() * (randMess.length));

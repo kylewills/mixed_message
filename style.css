@@ -1,0 +1,38 @@
+.pageBackground {
+    background-color: rgb(219, 236, 179);
+    padding: 1em;
+    
+  }
+
+  div {
+    border: 1px solid gray;
+    padding: 1em;
+  }
+
+  .pagePlan {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10em;
+    background-color: rgb(170, 177, 153);
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+
+  .message {
+    background-color: rgb(241, 245, 234);
+    text-align: center;
+
+  }
+
+  button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
